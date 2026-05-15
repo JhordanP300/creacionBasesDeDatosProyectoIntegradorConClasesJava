@@ -13,4 +13,20 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <!-- Hibernate Core: El motor que traduce objetos Java a tablas SQL -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.6.2.Final</version>
+        </dependency>
+
+        <!-- PostgreSQL Driver: El "traductor" que permite a Java hablar con la base de datos -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.10</version>
+        </dependency>
+    </dependencies>
+
 </project>

@@ -16,7 +16,7 @@ public class PagoDAOImpl implements PagoDAO {
     @Override
     public Pago buscarPago(int idPago) {
         for (Pago pago : pagos) {
-            if (pago.idPago == idPago) {
+            if (pago.getIdPago() == idPago) {
                 return pago;
             }
         }
